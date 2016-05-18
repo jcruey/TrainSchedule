@@ -1,0 +1,44 @@
+#addEmployee {
+    width: 97%;
+    position: relative;
+    left: 17px;
+    background-color: blue;
+    color: white;
+}
+#currentEmployees {
+    width: 97%;
+    position: relative;
+    left: 17px;
+    background-color: blue;
+    color: white;
+}
+.panel-default {
+    width: 97%;
+    position: relative;
+    left: 17px;
+    background-color: white;
+    color: black;
+}
+.jumbotron {
+	background-color: red;
+	color: white;
+}
+.form-group {
+	padding: 10px;
+}
+.submitBtn {
+	position: relative;
+	bottom: 5px;
+	left: 10px;
+	padding: 10px;
+	color: white;
+}
+.clearBtn {
+	position: relative;
+	bottom: 5px;
+	left: 10px;
+	padding: 10px;
+	background-color: grey;
+	color: white;
+}
+
