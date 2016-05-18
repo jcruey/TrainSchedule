@@ -25,7 +25,10 @@ $("#addTrain").on("click", function() {
 	trainData.push(newTrain);
 
 	//reset the input boxes
-	$(".form-group").reset();
+	$("#trainName").val("");
+	$("#destination").val("");
+	$("#freqMin").val("");
+	$("#firstTrain").val("");
 	//notify user that train was added
 	alert("Train added succesfully!")
 
@@ -34,7 +37,7 @@ $("#addTrain").on("click", function() {
 });
 
 //Firebase watcher + initial loader HINT: .on("value")
-trainData.on("child_added", function(snapshot) {
+trainData.on("child_added", function(snapshot, prevChildKey) {
 
 	// Log everything that's coming out of snapshot
 	console.log(snapshot.val());
