@@ -1,17 +1,4 @@
-#addEmployee {
-    width: 97%;
-    position: relative;
-    left: 17px;
-    background-color: blue;
-    color: white;
-}
-#currentEmployees {
-    width: 97%;
-    position: relative;
-    left: 17px;
-    background-color: blue;
-    color: white;
-}
+
 .panel-default {
     width: 97%;
     position: relative;
@@ -20,7 +7,7 @@
     color: black;
 }
 .jumbotron {
-	background-color: red;
+	background-image: url('../images/trainbacker.jpg');
 	color: white;
 }
 .form-group {
