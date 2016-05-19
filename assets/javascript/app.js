@@ -30,7 +30,7 @@ $("#addTrain").on("click", function() {
 	$("#freqMin").val("");
 	$("#firstTrain").val("");
 	//notify user that train was added
-	alert("Train added succesfully!")
+	// alert("Train added succesfully!")
 
 	// Don't refresh the page!
 	return false;
